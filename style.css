@@ -11,11 +11,53 @@ body {
 }
 
 /* nav will start here  */
+html {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+nav {
+    background-image: url(Assets/photoshop/design-assets/bgk-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+#nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 25rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    height: 10vh;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+
+nav ul a:active {
+    color: #68dacd;
+}
 
 /* nav will end here  */
 
 /* main section hero will start here  */
-
+#hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: white;
+}
 /* main section hero will end here  */
 
 /* main section our-story will start here  */
