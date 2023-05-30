@@ -82,7 +82,8 @@ nav ul a:active {
     border: #68dacd solid 0.005rem;
 }
 #hero h2 {
-    font-size: 1.7rem;
+    font-size: 2rem;
+    font-family: serif;
 }
 
 #hero p {
