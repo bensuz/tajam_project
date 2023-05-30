@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+/* nav will start here  */
+
+/* nav will end here  */
+
+/* main section hero will start here  */
+
+/* main section hero will end here  */
+
+/* main section our-story will start here  */
+
+/* main section our-story will end here  */
+
+/* main section watch-our-story will start here  */
+
+/* main section watch-our-story will end here  */
+
+/* main section expertise will start here  */
+
+/* main section expertise will end here  */
+
+/* main section meet-team will start here  */
+
+/* main section meet-team will end here  */
+
+/* main section news-and-clients will start here  */
+
+/* main section news-and-clients will end here  */
+
+/* footer will start here  */
+
+/* footer will end here  */
