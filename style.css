@@ -56,10 +56,12 @@ nav ul a {
     color: white;
 }
 
-nav ul a:active {
+/* nav ul a:active {
+    color: #68dacd;
+} */
+nav ul li #blue-home {
     color: #68dacd;
 }
-
 /* nav will end here  */
 
 /* main section hero will start here  */
