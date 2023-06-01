@@ -41,11 +41,12 @@ body {
 }
 
 hr {
-  color: #c6c4c9;
+  /* color: #c6c4c9; */
+  border: #c6c4c9;
   background-color: #c6c4c9;
   margin: auto;
   width: 3%;
-  height: 1px;
+  height: 2px;
 }
 
 .grid-container {
