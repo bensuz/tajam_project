@@ -332,7 +332,7 @@ form{
 }
 input{
     width: 55%;
-    height: 1.8rem;
+    height: 2rem;
     border-radius: 5px;
     border:lightslategray solid;
     background-color: transparent;
@@ -343,6 +343,14 @@ button{
     color:black;
     padding: 0.05rem 0.05rem;
     border-radius:2px;
+    height: 2rem;
+    width: 3rem;
+
+}
+.btn{
+    align-items: center;
+    display: flex;
+    gap: 0.6rem;
 }
 
 
