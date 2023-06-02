@@ -8,22 +8,141 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* nav will start here  */
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+nav {
+  background-image: url(Assets/photoshop/design-assets/bgk-header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+}
+#nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 25rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 10vh;
+}
+#nav-img-div {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 0.5rem;
+}
+#nav-img-div p {
+  color: #68dacd9d;
+  font-size: 2.1rem;
+  font-weight: 50;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+}
 
+nav ul a {
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+}
+
+/* nav ul a:active {
+    color: #68dacd;
+} */
+nav ul li #blue-home {
+  color: #68dacd;
+}
 /* nav will end here  */
 
 /* main section hero will start here  */
+#hero {
+  /* height: 90vh; */
+  width: 40%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  color: white;
+  /* background-color: aqua; */
+}
+#small-hr {
+  width: 8%;
+  background-color: #68dacd;
+  /* height: 0.05rem; */
+  border: #68dacd solid 0.005rem;
+}
+#hero h2 {
+  font-size: 2rem;
+  font-family: serif;
+}
 
+#hero p {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 200;
+}
+#hero button,
+#our-story-text button {
+  height: 2.4rem;
+  width: 22%;
+  border: #68dacd 0.13rem solid;
+  background: none;
+  color: #68dacd;
+  font-weight: 600;
+}
+#hero button a,
+#our-story-text button a {
+  text-decoration: none;
+  color: #68dacd;
+}
 /* main section hero will end here  */
 
 /* main section our-story will start here  */
+#our-story {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7rem;
+  height: 40vh;
+  padding: 2rem 31rem;
+}
+#our-story-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 1rem;
+}
 
 /* main section our-story will end here  */
 
 /* main section watch-our-story will start here  */
 
+#watch-our-story {
+  height: 70vh;
+  background-image: url(Assets/photoshop/design-assets/bgk-middle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 2rem;
+}
 /* main section watch-our-story will end here  */
 
 /* main section expertise will start here  */
@@ -96,6 +215,198 @@ hr {
 /* main section meet-team will end here  */
 
 /* main section news-and-clients will start here  */
+/* /* #news-and-clients{
+    background-color: #f2f2f2; */
+#news-and-clients {
+  display: flex;
+  align-items: start;
+  /* justify-content:space-evenly; */
+}
+form {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  width: 60%;
+}
+#name,
+#email,
+#Subject {
+  height: 1.5rem;
+  border: 0.01rem solid grey;
+  border-radius: 2px;
+  padding: 0.8rem;
+}
+#message {
+  border: 0.01rem solid grey;
+  border-radius: 2px;
+  padding: 0.8rem;
+}
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 80%;
+}
+
+.div1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.div1 img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  align-self: center;
+  justify-self: center;
+}
+.grid {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: start;
+  align-items: center;
+  height: 100%;
+  padding: 2rem;
+  padding-right: 20rem;
+}
+
+.div1 img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  align-items: center;
+  justify-content: center;
+}
+.good-news {
+  display: flexbox;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: start;
+  border-color: blue;
+  width: 50%;
+  align-items: center;
+  height: 100%;
+  padding: 2rem;
+  padding-left: 18rem;
+}
+.good-news h2,
+.grid h2 {
+  font-size: 2rem;
+  font-family: serif;
+}
+#submit {
+  background-color: white;
+  color: #68dacd;
+  width: 35%;
+  height: 1.5rem;
+  font-size: 16px;
+  border: 0.08rem solid#68dacd;
+  border-radius: 2px;
+}
+.footer {
+  background-image: url(./assets/photoshop/design-assets/bgk-footer.png);
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: fit-content;
+  width: 100%;
+  padding: 2rem;
+}
+.footer-container {
+  display: flex;
+  padding: 0rem 5rem;
+  justify-content: center;
+  gap: 2rem;
+}
+.our-studio,
+.tajam,
+.stay-in-touch {
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  max-width: 33%;
+  gap: 1rem;
+}
+.picTajan {
+  display: flex;
+  gap: 0.8rem;
+  color: #68dacd;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.picTajan p {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.our-studio {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.address1 {
+  display: flex;
+  gap: 0.8rem;
+}
+.address1 img {
+  width: 2rem;
+  height: 1.5rem;
+}
+.address2 {
+  display: flex;
+}
+.footer-container1 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20.5rem;
+  padding-right: 20.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+.footer-container1 a {
+  text-decoration: none;
+  color: white;
+  padding-top: 2rem;
+}
+.footer-container1 p {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 300;
+  padding-top: 2rem;
+}
+input {
+  width: 55%;
+  height: 2rem;
+  border-radius: 5px;
+  border: lightslategray solid;
+  background-color: transparent;
+}
+button {
+  border: none;
+  background-color: lightslategray;
+  color: black;
+  padding: 0.05rem 0.05rem;
+  border-radius: 2px;
+  height: 2rem;
+  width: 3rem;
+}
+.btn {
+  align-items: center;
+  display: flex;
+  gap: 0.6rem;
+}
+
+textarea::placeholder {
+  color: white;
+  font-size: 0.8rem;
+}
 
 /* main section news-and-clients will end here  */
 
