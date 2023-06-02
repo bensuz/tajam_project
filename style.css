@@ -301,12 +301,54 @@ form{
     display: flex;
     gap: 0.8rem;
 }
+.address1 img{
+    width: 2rem;
+    height: 1.5rem;
+
+}
+.address2{
+    display: flex;
+}
 .footer-container1{
     display: flex;
     justify-content: space-between;
     padding-left: 20.5rem;
     padding-right: 20.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 
+}
+.footer-container1 a{
+    text-decoration: none;
+    color:white;
+    padding-top: 2rem;
+
+}
+.footer-container1 p{
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 300;
+    padding-top: 2rem;
+}
+input{
+    width: 55%;
+    height: 1.8rem;
+    border-radius: 5px;
+    border:lightslategray solid;
+    background-color: transparent;
+}
+button{
+    border: none;
+    background-color: lightslategray;
+    color:black;
+    padding: 0.05rem 0.05rem;
+    border-radius:2px;
+}
+
+
+textarea::placeholder{
+    color: white;
+    font-size: 0.8rem;
 }
 
 /* main section news-and-clients will end here  */
